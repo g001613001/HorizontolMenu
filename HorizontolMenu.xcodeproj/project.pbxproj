@@ -11,7 +11,7 @@
 		65C626C71E8102CC0091EC23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C626C51E8102CC0091EC23 /* Main.storyboard */; };
 		65C626C91E8102CC0091EC23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C626C81E8102CC0091EC23 /* Assets.xcassets */; };
 		65C626CC1E8102CC0091EC23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C626CA1E8102CC0091EC23 /* LaunchScreen.storyboard */; };
-		65C626D51E8102ED0091EC23 /* HorizontalMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626D31E8102ED0091EC23 /* HorizontalMenu.swift */; };
+		65C626D51E8102ED0091EC23 /* HorizontalMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626D31E8102ED0091EC23 /* HorizontalMenuVC.swift */; };
 		65C626D61E8102ED0091EC23 /* HorizontalMenu4CVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C626D41E8102ED0091EC23 /* HorizontalMenu4CVCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +22,7 @@
 		65C626C81E8102CC0091EC23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65C626CB1E8102CC0091EC23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65C626CD1E8102CC0091EC23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65C626D31E8102ED0091EC23 /* HorizontalMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalMenu.swift; sourceTree = "<group>"; };
+		65C626D31E8102ED0091EC23 /* HorizontalMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalMenuVC.swift; sourceTree = "<group>"; };
 		65C626D41E8102ED0091EC23 /* HorizontalMenu4CVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalMenu4CVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,7 +69,7 @@
 		65C626D71E8102F30091EC23 /* 水平菜單 */ = {
 			isa = PBXGroup;
 			children = (
-				65C626D31E8102ED0091EC23 /* HorizontalMenu.swift */,
+				65C626D31E8102ED0091EC23 /* HorizontalMenuVC.swift */,
 				65C626D41E8102ED0091EC23 /* HorizontalMenu4CVCell.swift */,
 			);
 			name = "水平菜單";
@@ -148,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C626D51E8102ED0091EC23 /* HorizontalMenu.swift in Sources */,
+				65C626D51E8102ED0091EC23 /* HorizontalMenuVC.swift in Sources */,
 				65C626D61E8102ED0091EC23 /* HorizontalMenu4CVCell.swift in Sources */,
 				65C626C21E8102CC0091EC23 /* AppDelegate.swift in Sources */,
 			);

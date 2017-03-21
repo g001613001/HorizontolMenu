@@ -7,7 +7,7 @@
 //
 
 import UIKit
-extension HorizontalMenu : UICollectionViewDataSource{
+extension HorizontalMenuVC : UICollectionViewDataSource{
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         // #warning Incomplete implementation, return the number of sections
         return 1
@@ -25,7 +25,7 @@ extension HorizontalMenu : UICollectionViewDataSource{
         return cell
     }
 }
-extension HorizontalMenu : UICollectionViewDelegateFlowLayout {
+extension HorizontalMenuVC : UICollectionViewDelegateFlowLayout {
     //設置集合視圖單元格大小
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize{
         
@@ -57,7 +57,7 @@ extension HorizontalMenu : UICollectionViewDelegateFlowLayout {
         return CGSize(width: 0, height: 0)
     }
 }
-extension HorizontalMenu : UICollectionViewDelegate{
+extension HorizontalMenuVC : UICollectionViewDelegate{
     //MARK:- 點擊的項目移動到中間的處理以及變色處理
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath){
         
@@ -71,7 +71,7 @@ extension HorizontalMenu : UICollectionViewDelegate{
     }
 }
 //MARK:- 滾動＋拖動的項目移動到中間的處理
-extension HorizontalMenu : UIScrollViewDelegate {
+extension HorizontalMenuVC : UIScrollViewDelegate {
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView) {
         checkScrollViewPoint(scrollView: scrollView)
     }
@@ -97,7 +97,7 @@ extension HorizontalMenu : UIScrollViewDelegate {
         }
     }
 }
-class HorizontalMenu: UIViewController {
+class HorizontalMenuVC: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     //使用者自定義的部份
